@@ -209,19 +209,19 @@ const Ratings = () => {
               >Create Heat Map</Button>
             </Box>
 
-            <Box sx={{ height: 75, color: '#ffffff', bgcolor: 'black', m: 'auto', borderRadius: '16px', textAlign: 'center', display: { xs: 'none', md: 'block' } }}>
+            <Box sx={{ height: 75, color: '#ffffff', bgcolor: 'black', m: 'auto', borderRadius: '16px', textAlign: 'center', display: { xs: 'none', sm: 'block' } }}>
               <Typography sx={{ pt: 2 }} variant="h4" gutterBottom>
                 {searchTitle} Episode Ratings
               </Typography>
             </Box>
 
-            <Box sx={{ height: 75, color: '#ffffff', bgcolor: 'black', m: 'auto', borderRadius: '16px', textAlign: 'center', display: { xs: 'block', md: 'none' } }}>
+            <Box sx={{ height: 75, color: '#ffffff', bgcolor: 'black', m: 'auto', borderRadius: '16px', textAlign: 'center', display: { xs: 'block', sm: 'none' } }}>
               <Typography sx={{ pt: 2 }} variant="h4" gutterBottom>
                 Please Rotate Phone <ScreenRotationIcon></ScreenRotationIcon> or Enlarge Screen <AspectRatioIcon></AspectRatioIcon>
               </Typography>
             </Box>
 
-            <Box sx={{ height: 800, color: 'black', bgcolor: 'white', mt: 5, display: { xs: 'none', md: 'block' } }}>
+            <Box sx={{ height: 800, color: 'black', bgcolor: 'white', mt: 5, display: { xs: 'none', sm: 'block' } }}>
 
               <MyResponsiveHeatMap data={heatData} seriesTitle={searchTitle}></MyResponsiveHeatMap>
 

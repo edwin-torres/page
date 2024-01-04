@@ -12,6 +12,7 @@ import Astar from "./components/projects/Astar";
 import Chaos from "./components/projects/Chaos";
 import Spiral from "./components/projects/Spiral";
 import Mnist from "./components/projects/Minst";
+import Notebooks from './components/Notebooks';
 
 function App() {
    
@@ -30,6 +31,7 @@ function App() {
       <Route path="/" element={<About />} />
       <Route path='/home' element={<About />} />
       <Route path='/projects' element={<Projects />} />
+      <Route path='/jupyter-notebooks' element={<Notebooks />} />
       <Route path='/projects/ratings' element={<Ratings />} />
       <Route path='/projects/lorenz' element={<Lorenz />} />
       <Route path='/projects/astar' element={<Astar />} />

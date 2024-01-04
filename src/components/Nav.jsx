@@ -14,7 +14,7 @@ import Button from '@mui/material/Button';
  
 import MenuItem from '@mui/material/MenuItem';
  
-const pages = ['Projects', 'Jupyter-Notebooks', 'About', ];
+const pages = ['projects', 'jupyter-notebooks', 'about', ];
  
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -52,9 +52,13 @@ function NavBar() {
           >
             edwin-torres
           </Typography>
-          <GitHubIcon   sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} ></GitHubIcon>
-          <LinkedInIcon   sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} ></LinkedInIcon>
-
+            <IconButton href="https://github.com/edwin-torres" target="_blank"  >
+           <GitHubIcon sx={{ color:'white', display: { xs: 'none', md: 'flex' }, mr: 1,  "&:hover": {    transform:'scale(1.1)', cursor:'pointer'}   }} ></GitHubIcon>
+           </IconButton>
+           <IconButton  href="https://www.linkedin.com/in/torres-edwin/" target="_blank"    > 
+          <LinkedInIcon   sx={{color:'white', display: { xs: 'none', md: 'flex', "&:hover": {    transform:'scale(1.1)', cursor:'pointer'} }, mr: 1 }} ></LinkedInIcon>
+          </IconButton>
+         
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
@@ -94,8 +98,8 @@ function NavBar() {
               ))}
             </Menu>
           </Box>
-          <GitHubIcon  sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} ></GitHubIcon>
-          <LinkedInIcon  sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} ></LinkedInIcon>
+          
+          
            <Typography
             variant="h5"
             noWrap

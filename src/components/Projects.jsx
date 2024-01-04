@@ -12,37 +12,37 @@ export default function Projects() {
       name:'IMBD Episode Ratings', 
       description: '2-d visualization of popular TV Series', 
       appRoute:'/projects/ratings', 
-      codeUrl: 'https://www.wikidata.org/wiki/Wikidata:Main_Page'
+      codeUrl: 'https://github.com/edwin-torres/page/blob/main/src/components/projects/Ratings.jsx'
     },
     {
       name:'Lorenz Attractor ', 
       description: 'Sensitive dependence on initial condition.', 
       appRoute:'/projects/lorenz', 
-      codeUrl: 'https://www.wikidata.org/wiki/Wikidata:Main_Page'
+      codeUrl: 'https://github.com/edwin-torres/page/blob/main/src/components/projects/Lorenz.jsx'
     },
     {
       name:'Path Finder', 
       description: 'Path finding algorithm using A*  ', 
       appRoute:'/projects/astar', 
-      codeUrl: 'https://www.wikidata.org/wiki/Wikidata:Main_Page'
+      codeUrl: 'https://github.com/edwin-torres/page/blob/main/src/components/projects/Astar.jsx'
     },
     {
       name:'Chaos', 
       description: 'Sierpinski triangle via chaos game.', 
       appRoute:'/projects/chaos', 
-      codeUrl: 'https://www.wikidata.org/wiki/Wikidata:Main_Page'
+      codeUrl: 'https://github.com/edwin-torres/page/blob/main/src/components/projects/Chaos.jsx'
     },
     {
       name:'Spiral', 
       description: 'Just a cool rotating spiral 🌌.', 
       appRoute:'/projects/spiral', 
-      codeUrl: 'https://www.wikidata.org/wiki/Wikidata:Main_Page'
+      codeUrl: 'https://github.com/edwin-torres/page/blob/main/src/components/projects/Spiral.jsx'
     },
     {
       name:'Convolutional Neural Network', 
       description: 'Predicts a digit 0-9.', 
       appRoute:'/projects/mnist', 
-      codeUrl: 'https://www.wikidata.org/wiki/Wikidata:Main_Page'
+      codeUrl: 'https://github.com/edwin-torres/page/blob/main/src/components/projects/Minst.jsx'
     },
 
 
