@@ -13,6 +13,7 @@ import Chaos from "./components/projects/Chaos";
 import Spiral from "./components/projects/Spiral";
 import Mnist from "./components/projects/Minst";
 import Notebooks from './components/Notebooks';
+import Breakout from "./components/projects/Breakout";
 
 function App() {
    
@@ -38,6 +39,7 @@ function App() {
       <Route path='/projects/chaos' element={<Chaos />} />
       <Route path='/projects/spiral' element={<Spiral />} />
       <Route path='/projects/mnist' element={<Mnist />} />
+      <Route path='/projects/breakout' element={<Breakout />} />
 
       {/* Using path="*"" means "match anything" */}
       <Route path="*" element={<About />} />

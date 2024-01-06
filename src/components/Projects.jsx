@@ -44,6 +44,13 @@ export default function Projects() {
       appRoute:'/projects/mnist', 
       codeUrl: 'https://github.com/edwin-torres/page/blob/main/src/components/projects/Minst.jsx'
     },
+    {
+      name:'Breakout Game', 
+      description: 'Classic Game 🕹️🏓', 
+      appRoute:'/projects/breakout', 
+      codeUrl: 'https://github.com/edwin-torres/page/blob/main/src/components/projects/Breakout.jsx'
+    },
+
 
 
   ];
