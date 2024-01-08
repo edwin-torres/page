@@ -46,7 +46,7 @@ export default function Projects() {
       codeUrl: 'https://github.com/edwin-torres/page/blob/main/src/components/projects/Spiral.jsx'
     },
     {
-      name:'Basic M.L Model🤖🧠', 
+      name:'Basic M.L. Model🤖🧠', 
       description: 'Predicts a digit 0-9.', 
       appRoute:'/projects/mnist', 
       codeUrl: 'https://github.com/edwin-torres/page/blob/main/src/components/projects/Minst.jsx'

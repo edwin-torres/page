@@ -1,19 +1,29 @@
  
 import { ResponsiveStream } from '@nivo/stream'
-import { Box, Button, Typography } from "@mui/material";
+import { Link,  Box, Button, Typography } from "@mui/material";
 import { congress_data } from './CongressData';
 import ScreenRotationIcon from '@mui/icons-material/ScreenRotation';
 import AspectRatioIcon from '@mui/icons-material/AspectRatio';
 
  
 const Congress = () => {
-
+   
 
     return(
         
 <>
 
+<Box sx={{ textAlign: 'center', m: 2, display: { xs: 'none', sm: 'block' } }}>
+<Typography variant="h5" gutterBottom sx={{ textAlign: 'left' }}>
+          Source:  <Link href="https://github.com/unitedstates/congress-legislators" target="_blank" underline="hover">unitedstates github</Link> 
 
+        </Typography>
+        <Typography variant="h5" gutterBottom sx={{ textAlign: 'left' }}>
+          Data Preparation:  <Link href="https://github.com/edwin-torres/congress/blob/main/Congress.ipynb" target="_blank" underline="hover">code</Link> 
+
+        </Typography>
+       
+      </Box>
         <Box sx={{ height: 75, color: '#ffffff', bgcolor: 'black', m: 'auto', borderRadius: '16px', textAlign: 'center', display: { xs: 'none', sm: 'block' } }}>
         <Typography sx={{ pt: 2 }} variant="h4" gutterBottom>
           Composition of U.S. Congress <br></br> by Generation (1940-2024)
@@ -27,7 +37,9 @@ const Congress = () => {
         </Typography>
       </Box>
 
-        <Box sx={{ height: 800,  width:'95%',  color: 'black', bgcolor: 'white', mt:5,  display: { xs: 'none', sm: 'block' } }}>
+     
+
+        <Box sx={{ height:{ md: 400, lg:800 } ,  width:'95%',  color: 'black', bgcolor: 'white', mt:5,  display: { xs: 'none', sm: 'block' } }}>
 
         <MyResponsiveStream data={congress_data}  ></MyResponsiveStream>
 
@@ -162,7 +174,7 @@ const MyResponsiveStream = ({ data  }) => (
                 direction: 'column',
                 translateX: 65,
                 itemWidth: 55,
-                itemHeight: 45,
+                itemHeight: 30,
                 itemTextColor: '#ffffff',
                 symbolSize: 13,
                 symbolShape: 'circle',

@@ -1,7 +1,7 @@
 import * as React from 'react';
  
 import Box from '@mui/material/Box';
- 
+import PeopleIcon from '@mui/icons-material/People';
 import Grid from '@mui/material/Unstable_Grid2';
 import NotebookCard from './NotebookCard'
  
@@ -9,17 +9,24 @@ import NotebookCard from './NotebookCard'
 export default function Notebooks() {
   const projects = [
     {
-      name:'Forecasting Oil Production', 
+      name:'Forecasting Oil Production⛽📊', 
       description: ' ', 
       
       codeUrl: 'https://github.com/edwin-torres/Shale/blob/main/shale.ipynb'
     },
     {
-      name:'Airline Ratings', 
+      name:'Airline Passanger Ratings✈️⭐', 
       description: ' ', 
       
       codeUrl: 'https://github.com/edwin-torres/airline-reviews/blob/main/AirlineReviews.ipynb'
     },
+    {
+      name:'Congress Generations📜🏛️', 
+      description: ' ', 
+      
+      codeUrl: 'https://github.com/edwin-torres/congress/blob/main/Congress.ipynb'
+    },
+    
     
 
   ];
