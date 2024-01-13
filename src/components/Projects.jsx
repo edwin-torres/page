@@ -34,6 +34,13 @@ export default function Projects() {
       codeUrl: 'https://github.com/edwin-torres/page/blob/main/src/components/projects/Astar.jsx'
     },
     {
+      name:'College Demographics👩‍🎓', 
+      description: 'Laredo College Student Demographics', 
+      appRoute:'/projects/college-demographics', 
+      codeUrl: 'https://github.com/edwin-torres/page/blob/main/src/components/projects/CollegeDemographics.jsx'
+    },
+   
+    {
       name:'Chaos🌪️', 
       description: 'Sierpinski triangle via chaos game.', 
       appRoute:'/projects/chaos', 
@@ -57,11 +64,10 @@ export default function Projects() {
       appRoute:'/projects/breakout', 
       codeUrl: 'https://github.com/edwin-torres/page/blob/main/src/components/projects/Breakout.jsx'
     },
-
    
 
   ];
- 
+  
 
   return (
     <Box sx={{ p:0,m:0, flexGrow: 1,bgcolor:'black',textAlign:'center', justifyContent:'center',  display:'flex'   }}>

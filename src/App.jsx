@@ -15,6 +15,7 @@ import Mnist from "./components/projects/Minst";
 import Notebooks from './components/Notebooks';
 import Breakout from "./components/projects/Breakout";
 import Congress from "./components/projects/Congress";
+import CollegeDemographics from './components/projects/CollegeDemographics';
 
 function App() {
    
@@ -42,6 +43,8 @@ function App() {
       <Route path='/projects/mnist' element={<Mnist />} />
       <Route path='/projects/breakout' element={<Breakout />} />
       <Route path='/projects/congress' element={<Congress />} />
+      <Route path='/projects/college-demographics' element={<CollegeDemographics />} />
+      
 
       {/* Using path="*"" means "match anything" */}
       <Route path="*" element={<About />} />

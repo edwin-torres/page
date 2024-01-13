@@ -39,7 +39,7 @@ const Congress = () => {
 
      
 
-        <Box sx={{ height:{ md: 400, lg:800 } ,  width:'95%',  color: 'black', bgcolor: 'white', mt:5,  display: { xs: 'none', sm: 'block' } }}>
+        <Box sx={{ height:{ xs: 400, lg:800 } ,  width:'80%',  color: 'black', bgcolor: 'white',  display: { xs: 'none', sm: 'block' } , aspectRatio: .99, m:'auto', mt:5, }}>
 
         <MyResponsiveStream data={congress_data}  ></MyResponsiveStream>
 
@@ -85,7 +85,7 @@ const MyResponsiveStream = ({ data  }) => (
         'Generation X',
         'Millennial',
         'Generation Z']}
-        margin={{ top: 50, right: 125, bottom: 50, left: 60 }}
+        margin={{ top: 20, right: 125, bottom: 50, left: 60 }}
         axisTop={null}
         axisRight={null}
         axisBottom={{
@@ -115,7 +115,7 @@ const MyResponsiveStream = ({ data  }) => (
                 return new_val.toString() + '%';
             }
         }}
-        enableGridX={true}
+        enableGridX={false}
         enableGridY={false}
         offsetType="silhouette"
         colors={{ scheme: 'category10' }}
