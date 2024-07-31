@@ -58,6 +58,13 @@ export default function Projects() {
       appRoute:'/projects/mnist', 
       codeUrl: 'https://github.com/edwin-torres/page/blob/main/src/components/projects/Minst.jsx'
     },
+   
+    {
+      name:'Connections🧩🕵️‍♂️', 
+      description: 'New York Times Puzzle', 
+      appRoute:'/projects/connections', 
+      codeUrl: 'https://github.com/edwin-torres/page/blob/main/src/components/projects/Connections.jsx'
+    },
     {
       name:'Breakout Game🕹️🏓', 
       description: 'Classic Game ', 

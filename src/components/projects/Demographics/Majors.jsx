@@ -1,81 +1,81 @@
- 
+
 import { ResponsivePie } from '@nivo/pie';
 import { Box, Typography } from '@mui/material';
 
 const split = {
-    'Academic Majors':{
-        'Male':3285, 
+    'Academic Majors': {
+        'Male': 3285,
         'Female': 4693
     },
-    'Vocational Majors':{
-        'Male':740, 
+    'Vocational Majors': {
+        'Male': 740,
         'Female': 801
     },
-    'Tech-Prep Majors':{
-        'Male':329, 
+    'Tech-Prep Majors': {
+        'Male': 329,
         'Female': 344
     }
 }
 
-export const MyResponsivePie = ({ data  }) => (
+export const MyResponsivePie = ({ data }) => (
     <ResponsivePie
         data={data}
         tooltip={({
             datum: {
-              id,
-              value,
-              color
+                id,
+                value,
+                color
             }
-          }) => <Box style={{
+        }) => <Box style={{
             padding: 12,
             color,
             background: '#222222'
-          }}> 
-                            <strong>
-                                {id}<br /> Total Enrollment: {split[id].Female+split[id].Male}  
-                            </strong>
-                            <Typography>-----------</Typography>
-                            
-                            
-                            <strong>
-                            Male: {split[id].Male}  
-                            </strong>
-                            <br />
-                            <strong>
-                            Female: {split[id].Female}  
-                            </strong>
-                            <Typography>-----------</Typography>
-                            
-                        </Box>}  
+        }}>
+                <strong>
+                    {id}<br /> Total Enrollment: {split[id].Female + split[id].Male}
+                </strong>
+                <Typography>-----------</Typography>
+
+
+                <strong>
+                    Male: {split[id].Male}
+                </strong>
+                <br />
+                <strong>
+                    Female: {split[id].Female}
+                </strong>
+                <Typography>-----------</Typography>
+
+            </Box>}
 
 
 
-        arcLabel={e=>  e.value+"%"}
+        arcLabel={e => e.value + "%"}
         theme={{
             background: 'black',
             text: {
-              fontSize: 22,
-              fill: '#b0bec5'
-      
+                fontSize: 22,
+                fill: '#b0bec5'
+
             },
-            labels:{
-                text:{
-                    fontSize:22
+            labels: {
+                text: {
+                    fontSize: 22
                 }
             }
             ,
 
-            axis:{
-                
-                legend:{
-                    text:{
-                        fontSize:22
+            axis: {
+
+                legend: {
+                    text: {
+                        fontSize: 22
                     }
                 }
             }
 
-          }}
-        margin={{ top: 35, right: 55, bottom: 70, left: 95  }}
+        }}
+        margin={{ top: 35, right: 55, bottom: 70, left: 95 }}
         cornerRadius={5}
         activeInnerRadiusOffset={22}
         activeOuterRadiusOffset={16}
@@ -99,9 +99,9 @@ export const MyResponsivePie = ({ data  }) => (
         arcLabelsRadiusOffset={0.75}
         arcLabelsSkipAngle={23}
         arcLabelsTextColor="black"
-         
-        
-             
+
+
+
         legends={[
             {
                 anchor: 'bottom',
@@ -133,22 +133,22 @@ export const MyResponsivePie = ({ data  }) => (
 
 export const major_data = [
     {
-      "id": "Academic Majors",
-      "label": "Academic Majors",
-      "value": 78.28,
-      "color": "hsl(3, 70%, 50%)"
+        "id": "Academic Majors",
+        "label": "Academic Majors",
+        "value": 78.28,
+        "color": "hsl(3, 70%, 50%)"
     },
     {
-      "id": "Vocational Majors",
-      "label": "Vocational Majors",
-      "value": 15.12,
-      "color": "hsl(242, 70%, 50%)"
+        "id": "Vocational Majors",
+        "label": "Vocational Majors",
+        "value": 15.12,
+        "color": "hsl(242, 70%, 50%)"
     },
     {
-      "id": "Tech-Prep Majors",
-      "label": "Tech-Prep Majors",
-      "value": 6.60,
-      "color": "hsl(105, 70%, 50%)"
+        "id": "Tech-Prep Majors",
+        "label": "Tech-Prep Majors",
+        "value": 6.60,
+        "color": "hsl(105, 70%, 50%)"
     },
-  
-  ];
+
+];
