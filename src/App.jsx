@@ -16,7 +16,7 @@ import Notebooks from './components/Notebooks';
 import Breakout from "./components/projects/Breakout";
 import Congress from "./components/projects/Congress";
 import CollegeDemographics from './components/projects/CollegeDemographics';
-import ConnectionGrid from "./components/Connections";
+import ConnectionGrid from "./components/projects/Connections";
 
 
 function App() {
