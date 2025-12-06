@@ -1,5 +1,5 @@
  
-import { Routes, Route, } from "react-router-dom";
+import { Routes, Route, useLocation} from "react-router-dom";
 import { Container } from '@mui/material';
  
 
@@ -17,17 +17,23 @@ import Breakout from "./components/projects/Breakout";
 import Congress from "./components/projects/Congress";
 import CollegeDemographics from './components/projects/CollegeDemographics';
 import ConnectionGrid from "./components/projects/Connections";
-
+import TIABarDashboard from "./components/projects/CampusGrowthChart";
+import CompareCampuses from "./components/projects/CompareCampuses";
+import CampusRanking from "./components/projects/CampusRanking";
+import AnalyticsTabs from "./components/projects/AnalyticsTabs";
 
 function App() {
-   
+   const location = useLocation(); // 2. Get current location
+   const isAnalyticsPage = location.pathname === '/projects/analytics';
+   const containerColor = isAnalyticsPage ? '#f4f6f8':'black';
   return (
     <>
-    
-    <NavBar></NavBar>
+    {/* 4. Only show NavBar if we are NOT on the analytics page */}
+      {!isAnalyticsPage && <NavBar />}
+     
     
    
-    <Container maxWidth={false} disableGutters sx={{ p: 2,  bgcolor: 'black',   color: 'white' }} >
+    <Container maxWidth={false} disableGutters sx={{ p: 2,  bgcolor: containerColor,   color: 'white' }} >
 
 
     
@@ -47,6 +53,9 @@ function App() {
       <Route path='/projects/congress' element={<Congress />} />
       <Route path='/projects/college-demographics' element={<CollegeDemographics />} />
       <Route path='/projects/connections' element={<ConnectionGrid />} />
+ 
+      <Route path='/projects/analytics' element={<AnalyticsTabs />} />
+
       
  
 
