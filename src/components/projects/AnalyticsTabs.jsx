@@ -1,6 +1,6 @@
 // src/components/projects/AnalyticsTabs.jsx
 import React, { Suspense, useState, useEffect } from "react";
-import { Box, Tabs, Tab, Typography, Paper } from "@mui/material";
+import { Box, Tabs, Tab, Typography, Paper, Link } from "@mui/material";
 
 // Lazy load the charts
 const TIABarDashboard = React.lazy(() => import("./CampusGrowthChart"));
@@ -107,6 +107,34 @@ export default function AnalyticsTabs() {
           {tab === "growth" && <TIABarDashboard />}
           {tab === "ranking" && <CampusRanking />}
         </Suspense>
+        <Paper 
+  elevation={0} 
+  sx={{ 
+    p: 3,
+    bgcolor: themeColors.paper, 
+    borderRadius: 3,
+    boxShadow: "0 2px 10px rgba(0,0,0,0.05)",
+    border: "1px solid rgba(0,0,0,0.08)" 
+  }}
+>
+ 
+
+  {/* Data source footer */}
+  <Box sx={{ mt: 3, pt: 1, borderTop: "1px solid rgba(0,0,0,0.06)" }}>
+    <Typography variant="caption" sx={{ color: "text.secondary" }}>
+      Data Source: Texas Education Agency (TEA), Texas Academic Performance Reports (TAPR). 
+      Sample data used for demonstration purposes.&nbsp;
+      <Link
+        href="https://tea.texas.gov/texas-schools/accountability/academic-accountability/performance-reporting/texas-academic-performance-reports"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View TAPR reports
+      </Link>
+    </Typography>
+  </Box>
+</Paper>
+
       </Paper>
     </Box>
   );

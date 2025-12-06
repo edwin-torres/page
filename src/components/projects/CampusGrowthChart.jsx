@@ -184,7 +184,7 @@ function BarPair({ title, v23, v24, isPercent = false, height = 280 }) {
             valueFormat={(v) => (isPercent ? fmtPercent(v) : fmtNumber(v))}
             theme={{
               textColor,
-              labels: { text: { fontSize: 14, fill: textColor } },
+              labels: { text: { fontSize: 17, fill: textColor } },
               axis: {
                 domain: { line: { stroke: gridColor } },
                 ticks: {
@@ -256,7 +256,7 @@ export default function TIABarDashboard() {
       >
         <Box sx={{ flex: 1 }}>
           <Typography variant="h5" fontWeight={700}>
-            TIA Bar Graphs — {campusName}
+            Annual Growth Scores — {campusName}
           </Typography>
           {districtName && (
             <Typography variant="body2" color="text.secondary">

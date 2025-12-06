@@ -194,7 +194,7 @@ export default function CampusRanking(props) {
               valueFormat={(v) => format(v)}
               theme={{
                 textColor,
-                labels: { text: { fontSize: 17, fill: textColor } },
+                labels: { text: { fontSize: 20, fill: 'black',  } },
                 axis: {
                   domain: { line: { stroke: gridColor } },
                   ticks: {
