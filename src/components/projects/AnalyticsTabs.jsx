@@ -1,17 +1,33 @@
 // src/components/projects/AnalyticsTabs.jsx
 import React, { Suspense, useState, useEffect } from "react";
-import { Box, Tabs, Tab, Typography, Paper, Link } from "@mui/material";
+import { Box, Tabs, Tab, Typography, Paper, Link,  ToggleButton, ToggleButtonGroup } from "@mui/material";
 
 // Lazy load the charts
 const TIABarDashboard = React.lazy(() => import("./CampusGrowthChart"));
 const CampusRanking = React.lazy(() => import("./CampusRanking"));
 
+// 🔹 NEW: Lazy load the English charts
+const TIABarDashboardEnglish = React.lazy(() => import("./CampusGrowthChartEnglish"));
+const CampusRankingEnglish = React.lazy(() => import("./CampusRankingEnglish"));
+
+
 export default function AnalyticsTabs() {
   const [tab, setTab] = useState(() => localStorage.getItem("analytics:tab") || "growth");
+
+   // 🔹 NEW: subject state
+  const [subject, setSubject] = useState(
+    () => localStorage.getItem("analytics:subject") || "algebra"
+  );
 
   useEffect(() => {
     localStorage.setItem("analytics:tab", tab);
   }, [tab]);
+
+   // 🔹 NEW: persist subject too
+  useEffect(() => {
+    localStorage.setItem("analytics:subject", subject);
+  }, [subject]);
+
 
   // SWISD / Professional Color Palette
   const themeColors = {
@@ -20,6 +36,13 @@ export default function AnalyticsTabs() {
     primary: "#1b5e20",    // Professional Forest Green (SWISD style)
     text: "#2c3e50",       // Dark Slate Blue/Gray for text (High contrast)
     tabUnselected: "#546e7a" // Gray for unselected tabs
+  };
+
+  // 🔹 NEW: subject toggle handler
+  const handleSubjectChange = (_event, newSubject) => {
+    if (newSubject !== null) {
+      setSubject(newSubject);
+    }
   };
 
   return (
@@ -41,8 +64,50 @@ export default function AnalyticsTabs() {
           color: themeColors.text 
         }}
       >
-        District Growth & Analysis (Algebra I)
+        SOUTHWEST ISD - Growth & Analysis ({subject.toUpperCase()})
       </Typography>
+
+      {/* 🔹 NEW: Subject toggle (Algebra / English) */}
+      <ToggleButtonGroup
+        value={subject}
+        exclusive
+        onChange={handleSubjectChange}
+        sx={{
+    mb: 2,
+    "& .MuiToggleButton-root": {
+      textTransform: "none",
+      fontWeight: 600,
+      fontSize: "1rem",
+      color: themeColors.tabUnselected,
+      backgroundColor: "rgba(0,0,0,0.05)",   // same as unselected tabs
+      borderRadius: 2,
+      px: 3,
+      minHeight: 40,
+      border: "none",
+      transition: "all 0.2s ease",
+      "&:hover": {
+        backgroundColor: "rgba(0,0,0,0.1)",
+        color: themeColors.primary,
+      },
+    },
+    "& .MuiToggleButton-root.Mui-selected": {
+      color: "#ffffff",                     // white text
+      backgroundColor: themeColors.primary, // green like selected tab
+      boxShadow: "0 4px 12px rgba(27, 94, 32, 0.3)",
+      "&:hover": {
+        backgroundColor: themeColors.primary,
+      },
+    },
+  }}
+        aria-label="Select subject"
+      >
+        <ToggleButton value="algebra" aria-label="Algebra I">
+          Algebra I
+        </ToggleButton>
+        <ToggleButton value="english" aria-label="English I">
+          English I
+        </ToggleButton>
+      </ToggleButtonGroup>
 
       <Typography variant="body1" sx={{ mb: 2, color: "black" }}>
         Select a tab below to view year-over-year growth and campus comparisons.
@@ -103,9 +168,15 @@ export default function AnalyticsTabs() {
           border: "1px solid rgba(0,0,0,0.08)" 
         }}
       >
-        <Suspense fallback={<Typography sx={{ p: 2 }}>Loading visualization...</Typography>}>
-          {tab === "growth" && <TIABarDashboard />}
-          {tab === "ranking" && <CampusRanking />}
+          <Suspense fallback={<Typography sx={{ p: 2 }}>Loading visualization...</Typography>}>
+          {/* 🔹 UPDATED: choose chart by tab + subject */}
+          {tab === "growth" && (
+            subject === "algebra" ? <TIABarDashboard /> : <TIABarDashboardEnglish />
+          )}
+
+          {tab === "ranking" && (
+            subject === "algebra" ? <CampusRanking /> : <CampusRankingEnglish />
+          )}
         </Suspense>
         <Paper 
   elevation={0} 

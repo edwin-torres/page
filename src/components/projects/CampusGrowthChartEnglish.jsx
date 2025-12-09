@@ -16,7 +16,7 @@ import {
 import { useTheme, alpha } from "@mui/material/styles";
 
 // your data exports
-import { df_metrics_23 as data23, df_metrics_24 as data24 } from "./Data/tiaData";
+import { df_metrics_23_english as data23, df_metrics_24_english as data24 } from "./Data/tiaData";
 
 /** -----------------------------------------------
  * Pick the metrics you want to show as bar pairs

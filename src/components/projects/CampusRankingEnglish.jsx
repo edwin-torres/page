@@ -16,7 +16,7 @@ import { useTheme, alpha } from "@mui/material/styles";
 import { ResponsiveBar } from "@nivo/bar";
 
 // Fallback to your local data if props aren't provided
-import { df_metrics_23 as d23, df_metrics_24 as d24 } from "./Data/tiaData";
+import { df_metrics_23_english as d23, df_metrics_24_english as d24 } from "./Data/tiaData";
 
 const METRICS = [
   { key: "ALL_GROWTH_RATE", label: "All Students Growth", fmt: "pct" },
