@@ -17,10 +17,9 @@ import Breakout from "./components/projects/Breakout";
 import Congress from "./components/projects/Congress";
 import CollegeDemographics from './components/projects/CollegeDemographics';
 import ConnectionGrid from "./components/projects/Connections";
-import TIABarDashboard from "./components/projects/CampusGrowthChart";
-import CompareCampuses from "./components/projects/CompareCampuses";
-import CampusRanking from "./components/projects/CampusRanking";
+ 
 import AnalyticsTabs from "./components/projects/AnalyticsTabs";
+ 
 
 function App() {
    const location = useLocation(); // 2. Get current location
@@ -55,8 +54,7 @@ function App() {
       <Route path='/projects/connections' element={<ConnectionGrid />} />
  
       <Route path='/projects/analytics' element={<AnalyticsTabs />} />
-
-      
+    
  
 
       {/* Using path="*"" means "match anything" */}

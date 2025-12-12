@@ -859,3 +859,4327 @@ export const df_metrics_24_english = [
     "MALE_GROWTH_RATE":0.6481481481
   }
 ];
+
+
+export const data_approaches_meets_masters = [
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"African American",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.7777777778,
+    "subject":"Algebra I",
+    "subgroup":"African American",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5789473684,
+    "subject":"Algebra I",
+    "subgroup":"African American",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"African American",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0,
+    "subject":"Algebra I",
+    "subgroup":"African American",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0,
+    "subject":"Algebra I",
+    "subgroup":"African American",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"African American",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.3333333333,
+    "subject":"Algebra I",
+    "subgroup":"African American",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1052631579,
+    "subject":"Algebra I",
+    "subgroup":"African American",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6,
+    "subject":"Algebra I",
+    "subgroup":"All Students",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6787072243,
+    "subject":"Algebra I",
+    "subgroup":"All Students",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5926573427,
+    "subject":"Algebra I",
+    "subgroup":"All Students",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0666666667,
+    "subject":"Algebra I",
+    "subgroup":"All Students",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.030418251,
+    "subject":"Algebra I",
+    "subgroup":"All Students",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0262237762,
+    "subject":"Algebra I",
+    "subgroup":"All Students",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1333333333,
+    "subject":"Algebra I",
+    "subgroup":"All Students",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1844106464,
+    "subject":"Algebra I",
+    "subgroup":"All Students",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1538461538,
+    "subject":"Algebra I",
+    "subgroup":"All Students",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Asian",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Asian",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Asian",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Asian",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Asian",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Asian",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Asian",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Asian",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Asian",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5555555556,
+    "subject":"Algebra I",
+    "subgroup":"At Risk",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6366047745,
+    "subject":"Algebra I",
+    "subgroup":"At Risk",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5633528265,
+    "subject":"Algebra I",
+    "subgroup":"At Risk",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0,
+    "subject":"Algebra I",
+    "subgroup":"At Risk",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0053050398,
+    "subject":"Algebra I",
+    "subgroup":"At Risk",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0097465887,
+    "subject":"Algebra I",
+    "subgroup":"At Risk",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0740740741,
+    "subject":"Algebra I",
+    "subgroup":"At Risk",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1193633952,
+    "subject":"Algebra I",
+    "subgroup":"At Risk",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1228070175,
+    "subject":"Algebra I",
+    "subgroup":"At Risk",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6,
+    "subject":"Algebra I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.662037037,
+    "subject":"Algebra I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5786516854,
+    "subject":"Algebra I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0,
+    "subject":"Algebra I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0277777778,
+    "subject":"Algebra I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0243445693,
+    "subject":"Algebra I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1,
+    "subject":"Algebra I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1712962963,
+    "subject":"Algebra I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1535580524,
+    "subject":"Algebra I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6638655462,
+    "subject":"Algebra I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4814814815,
+    "subject":"Algebra I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0168067227,
+    "subject":"Algebra I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0148148148,
+    "subject":"Algebra I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1680672269,
+    "subject":"Algebra I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0814814815,
+    "subject":"Algebra I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5,
+    "subject":"Algebra I",
+    "subgroup":"Female",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.7253218884,
+    "subject":"Algebra I",
+    "subgroup":"Female",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6353383459,
+    "subject":"Algebra I",
+    "subgroup":"Female",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0,
+    "subject":"Algebra I",
+    "subgroup":"Female",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0300429185,
+    "subject":"Algebra I",
+    "subgroup":"Female",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0112781955,
+    "subject":"Algebra I",
+    "subgroup":"Female",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.3333333333,
+    "subject":"Algebra I",
+    "subgroup":"Female",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2145922747,
+    "subject":"Algebra I",
+    "subgroup":"Female",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1654135338,
+    "subject":"Algebra I",
+    "subgroup":"Female",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5652173913,
+    "subject":"Algebra I",
+    "subgroup":"Hispanic",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6767895879,
+    "subject":"Algebra I",
+    "subgroup":"Hispanic",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5906542056,
+    "subject":"Algebra I",
+    "subgroup":"Hispanic",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0434782609,
+    "subject":"Algebra I",
+    "subgroup":"Hispanic",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.032537961,
+    "subject":"Algebra I",
+    "subgroup":"Hispanic",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0280373832,
+    "subject":"Algebra I",
+    "subgroup":"Hispanic",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1304347826,
+    "subject":"Algebra I",
+    "subgroup":"Hispanic",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1757049892,
+    "subject":"Algebra I",
+    "subgroup":"Hispanic",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1570093458,
+    "subject":"Algebra I",
+    "subgroup":"Hispanic",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.625,
+    "subject":"Algebra I",
+    "subgroup":"Male",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6416382253,
+    "subject":"Algebra I",
+    "subgroup":"Male",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5555555556,
+    "subject":"Algebra I",
+    "subgroup":"Male",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0833333333,
+    "subject":"Algebra I",
+    "subgroup":"Male",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0307167235,
+    "subject":"Algebra I",
+    "subgroup":"Male",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0392156863,
+    "subject":"Algebra I",
+    "subgroup":"Male",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0833333333,
+    "subject":"Algebra I",
+    "subgroup":"Male",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1604095563,
+    "subject":"Algebra I",
+    "subgroup":"Male",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1437908497,
+    "subject":"Algebra I",
+    "subgroup":"Male",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4,
+    "subject":"Algebra I",
+    "subgroup":"Special Education",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4918032787,
+    "subject":"Algebra I",
+    "subgroup":"Special Education",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4130434783,
+    "subject":"Algebra I",
+    "subgroup":"Special Education",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1,
+    "subject":"Algebra I",
+    "subgroup":"Special Education",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0409836066,
+    "subject":"Algebra I",
+    "subgroup":"Special Education",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0434782609,
+    "subject":"Algebra I",
+    "subgroup":"Special Education",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1,
+    "subject":"Algebra I",
+    "subgroup":"Special Education",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1721311475,
+    "subject":"Algebra I",
+    "subgroup":"Special Education",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.152173913,
+    "subject":"Algebra I",
+    "subgroup":"Special Education",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Two or More Races",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Two or More Races",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Two or More Races",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Two or More Races",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Two or More Races",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Two or More Races",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Two or More Races",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Two or More Races",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Two or More Races",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.8,
+    "subject":"Algebra I",
+    "subgroup":"White",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.65625,
+    "subject":"Algebra I",
+    "subgroup":"White",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"White",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2,
+    "subject":"Algebra I",
+    "subgroup":"White",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.03125,
+    "subject":"Algebra I",
+    "subgroup":"White",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"White",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2,
+    "subject":"Algebra I",
+    "subgroup":"White",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.21875,
+    "subject":"Algebra I",
+    "subgroup":"White",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"White",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"African American",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5555555556,
+    "subject":"Algebra I",
+    "subgroup":"African American",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.65,
+    "subject":"Algebra I",
+    "subgroup":"African American",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"African American",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0,
+    "subject":"Algebra I",
+    "subgroup":"African American",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0,
+    "subject":"Algebra I",
+    "subgroup":"African American",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"African American",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1111111111,
+    "subject":"Algebra I",
+    "subgroup":"African American",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1,
+    "subject":"Algebra I",
+    "subgroup":"African American",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6923076923,
+    "subject":"Algebra I",
+    "subgroup":"All Students",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6798493409,
+    "subject":"Algebra I",
+    "subgroup":"All Students",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6427457098,
+    "subject":"Algebra I",
+    "subgroup":"All Students",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0256410256,
+    "subject":"Algebra I",
+    "subgroup":"All Students",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0677966102,
+    "subject":"Algebra I",
+    "subgroup":"All Students",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0265210608,
+    "subject":"Algebra I",
+    "subgroup":"All Students",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2307692308,
+    "subject":"Algebra I",
+    "subgroup":"All Students",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1883239171,
+    "subject":"Algebra I",
+    "subgroup":"All Students",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.127925117,
+    "subject":"Algebra I",
+    "subgroup":"All Students",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Asian",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Asian",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Asian",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Asian",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Asian",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Asian",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Asian",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Asian",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Asian",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6470588235,
+    "subject":"Algebra I",
+    "subgroup":"At Risk",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6378504673,
+    "subject":"Algebra I",
+    "subgroup":"At Risk",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.63,
+    "subject":"Algebra I",
+    "subgroup":"At Risk",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0,
+    "subject":"Algebra I",
+    "subgroup":"At Risk",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0420560748,
+    "subject":"Algebra I",
+    "subgroup":"At Risk",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0183333333,
+    "subject":"Algebra I",
+    "subgroup":"At Risk",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2058823529,
+    "subject":"Algebra I",
+    "subgroup":"At Risk",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1401869159,
+    "subject":"Algebra I",
+    "subgroup":"At Risk",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1033333333,
+    "subject":"Algebra I",
+    "subgroup":"At Risk",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6875,
+    "subject":"Algebra I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6622222222,
+    "subject":"Algebra I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6375617792,
+    "subject":"Algebra I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.03125,
+    "subject":"Algebra I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0688888889,
+    "subject":"Algebra I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0247116969,
+    "subject":"Algebra I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.21875,
+    "subject":"Algebra I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1822222222,
+    "subject":"Algebra I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.118616145,
+    "subject":"Algebra I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6842105263,
+    "subject":"Algebra I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6214689266,
+    "subject":"Algebra I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1157894737,
+    "subject":"Algebra I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0225988701,
+    "subject":"Algebra I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1789473684,
+    "subject":"Algebra I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1242937853,
+    "subject":"Algebra I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6666666667,
+    "subject":"Algebra I",
+    "subgroup":"Female",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.7044534413,
+    "subject":"Algebra I",
+    "subgroup":"Female",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6849315068,
+    "subject":"Algebra I",
+    "subgroup":"Female",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0,
+    "subject":"Algebra I",
+    "subgroup":"Female",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0850202429,
+    "subject":"Algebra I",
+    "subgroup":"Female",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0205479452,
+    "subject":"Algebra I",
+    "subgroup":"Female",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2666666667,
+    "subject":"Algebra I",
+    "subgroup":"Female",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2105263158,
+    "subject":"Algebra I",
+    "subgroup":"Female",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1232876712,
+    "subject":"Algebra I",
+    "subgroup":"Female",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6666666667,
+    "subject":"Algebra I",
+    "subgroup":"Hispanic",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6822033898,
+    "subject":"Algebra I",
+    "subgroup":"Hispanic",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6374172185,
+    "subject":"Algebra I",
+    "subgroup":"Hispanic",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0303030303,
+    "subject":"Algebra I",
+    "subgroup":"Hispanic",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0720338983,
+    "subject":"Algebra I",
+    "subgroup":"Hispanic",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0248344371,
+    "subject":"Algebra I",
+    "subgroup":"Hispanic",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2727272727,
+    "subject":"Algebra I",
+    "subgroup":"Hispanic",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1927966102,
+    "subject":"Algebra I",
+    "subgroup":"Hispanic",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1258278146,
+    "subject":"Algebra I",
+    "subgroup":"Hispanic",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.7083333333,
+    "subject":"Algebra I",
+    "subgroup":"Male",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6584507042,
+    "subject":"Algebra I",
+    "subgroup":"Male",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6074498567,
+    "subject":"Algebra I",
+    "subgroup":"Male",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0416666667,
+    "subject":"Algebra I",
+    "subgroup":"Male",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0528169014,
+    "subject":"Algebra I",
+    "subgroup":"Male",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0315186246,
+    "subject":"Algebra I",
+    "subgroup":"Male",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2083333333,
+    "subject":"Algebra I",
+    "subgroup":"Male",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1690140845,
+    "subject":"Algebra I",
+    "subgroup":"Male",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1318051576,
+    "subject":"Algebra I",
+    "subgroup":"Male",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.3333333333,
+    "subject":"Algebra I",
+    "subgroup":"Special Education",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.3469387755,
+    "subject":"Algebra I",
+    "subgroup":"Special Education",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.384057971,
+    "subject":"Algebra I",
+    "subgroup":"Special Education",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0,
+    "subject":"Algebra I",
+    "subgroup":"Special Education",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0306122449,
+    "subject":"Algebra I",
+    "subgroup":"Special Education",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0289855072,
+    "subject":"Algebra I",
+    "subgroup":"Special Education",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0,
+    "subject":"Algebra I",
+    "subgroup":"Special Education",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0714285714,
+    "subject":"Algebra I",
+    "subgroup":"Special Education",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.115942029,
+    "subject":"Algebra I",
+    "subgroup":"Special Education",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Two or More Races",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.8888888889,
+    "subject":"Algebra I",
+    "subgroup":"Two or More Races",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Two or More Races",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Two or More Races",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0,
+    "subject":"Algebra I",
+    "subgroup":"Two or More Races",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Two or More Races",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Two or More Races",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2222222222,
+    "subject":"Algebra I",
+    "subgroup":"Two or More Races",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"Two or More Races",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"White",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6206896552,
+    "subject":"Algebra I",
+    "subgroup":"White",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.8888888889,
+    "subject":"Algebra I",
+    "subgroup":"White",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"White",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0344827586,
+    "subject":"Algebra I",
+    "subgroup":"White",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1111111111,
+    "subject":"Algebra I",
+    "subgroup":"White",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"Algebra I",
+    "subgroup":"White",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1379310345,
+    "subject":"Algebra I",
+    "subgroup":"White",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1111111111,
+    "subject":"Algebra I",
+    "subgroup":"White",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"African American",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.8235294118,
+    "subject":"English I",
+    "subgroup":"African American",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5217391304,
+    "subject":"English I",
+    "subgroup":"African American",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"African American",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0882352941,
+    "subject":"English I",
+    "subgroup":"African American",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0,
+    "subject":"English I",
+    "subgroup":"African American",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"African American",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5588235294,
+    "subject":"English I",
+    "subgroup":"African American",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.347826087,
+    "subject":"English I",
+    "subgroup":"African American",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.7826086957,
+    "subject":"English I",
+    "subgroup":"All Students",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.7040673212,
+    "subject":"English I",
+    "subgroup":"All Students",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6379746835,
+    "subject":"English I",
+    "subgroup":"All Students",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2173913043,
+    "subject":"English I",
+    "subgroup":"All Students",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0701262272,
+    "subject":"English I",
+    "subgroup":"All Students",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0481012658,
+    "subject":"English I",
+    "subgroup":"All Students",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6086956522,
+    "subject":"English I",
+    "subgroup":"All Students",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4474053296,
+    "subject":"English I",
+    "subgroup":"All Students",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.3759493671,
+    "subject":"English I",
+    "subgroup":"All Students",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Asian",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Asian",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Asian",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Asian",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Asian",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Asian",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Asian",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Asian",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Asian",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.7058823529,
+    "subject":"English I",
+    "subgroup":"At Risk",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6279069767,
+    "subject":"English I",
+    "subgroup":"At Risk",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5947136564,
+    "subject":"English I",
+    "subgroup":"At Risk",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0882352941,
+    "subject":"English I",
+    "subgroup":"At Risk",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0147991543,
+    "subject":"English I",
+    "subgroup":"At Risk",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0205580029,
+    "subject":"English I",
+    "subgroup":"At Risk",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4705882353,
+    "subject":"English I",
+    "subgroup":"At Risk",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2980972516,
+    "subject":"English I",
+    "subgroup":"At Risk",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.328928047,
+    "subject":"English I",
+    "subgroup":"At Risk",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.7142857143,
+    "subject":"English I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6828422877,
+    "subject":"English I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.631147541,
+    "subject":"English I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1428571429,
+    "subject":"English I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0537261698,
+    "subject":"English I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0450819672,
+    "subject":"English I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4642857143,
+    "subject":"English I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4194107452,
+    "subject":"English I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.3661202186,
+    "subject":"English I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6086956522,
+    "subject":"English I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.475,
+    "subject":"English I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0186335404,
+    "subject":"English I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.01,
+    "subject":"English I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2795031056,
+    "subject":"English I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.235,
+    "subject":"English I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.8461538462,
+    "subject":"English I",
+    "subgroup":"Female",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.7584097859,
+    "subject":"English I",
+    "subgroup":"Female",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.717877095,
+    "subject":"English I",
+    "subgroup":"Female",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.3846153846,
+    "subject":"English I",
+    "subgroup":"Female",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0825688073,
+    "subject":"English I",
+    "subgroup":"Female",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0391061453,
+    "subject":"English I",
+    "subgroup":"Female",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6153846154,
+    "subject":"English I",
+    "subgroup":"Female",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4770642202,
+    "subject":"English I",
+    "subgroup":"Female",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4441340782,
+    "subject":"English I",
+    "subgroup":"Female",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.7714285714,
+    "subject":"English I",
+    "subgroup":"Hispanic",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6918138042,
+    "subject":"English I",
+    "subgroup":"Hispanic",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6388140162,
+    "subject":"English I",
+    "subgroup":"Hispanic",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2285714286,
+    "subject":"English I",
+    "subgroup":"Hispanic",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0642054575,
+    "subject":"English I",
+    "subgroup":"Hispanic",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0498652291,
+    "subject":"English I",
+    "subgroup":"Hispanic",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5428571429,
+    "subject":"English I",
+    "subgroup":"Hispanic",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4349919743,
+    "subject":"English I",
+    "subgroup":"Hispanic",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.3746630728,
+    "subject":"English I",
+    "subgroup":"Hispanic",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.7575757576,
+    "subject":"English I",
+    "subgroup":"Male",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6580310881,
+    "subject":"English I",
+    "subgroup":"Male",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5717592593,
+    "subject":"English I",
+    "subgroup":"Male",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1515151515,
+    "subject":"English I",
+    "subgroup":"Male",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0595854922,
+    "subject":"English I",
+    "subgroup":"Male",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0555555556,
+    "subject":"English I",
+    "subgroup":"Male",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6060606061,
+    "subject":"English I",
+    "subgroup":"Male",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4222797927,
+    "subject":"English I",
+    "subgroup":"Male",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.3194444444,
+    "subject":"English I",
+    "subgroup":"Male",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4545454545,
+    "subject":"English I",
+    "subgroup":"Special Education",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.3790322581,
+    "subject":"English I",
+    "subgroup":"Special Education",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2956521739,
+    "subject":"English I",
+    "subgroup":"Special Education",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0909090909,
+    "subject":"English I",
+    "subgroup":"Special Education",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0483870968,
+    "subject":"English I",
+    "subgroup":"Special Education",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.052173913,
+    "subject":"English I",
+    "subgroup":"Special Education",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1818181818,
+    "subject":"English I",
+    "subgroup":"Special Education",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2177419355,
+    "subject":"English I",
+    "subgroup":"Special Education",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1217391304,
+    "subject":"English I",
+    "subgroup":"Special Education",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Two or More Races",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.8333333333,
+    "subject":"English I",
+    "subgroup":"Two or More Races",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Two or More Races",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Two or More Races",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0,
+    "subject":"English I",
+    "subgroup":"Two or More Races",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Two or More Races",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Two or More Races",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1666666667,
+    "subject":"English I",
+    "subgroup":"Two or More Races",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Two or More Races",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.875,
+    "subject":"English I",
+    "subgroup":"White",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.7391304348,
+    "subject":"English I",
+    "subgroup":"White",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6,
+    "subject":"English I",
+    "subgroup":"White",
+    "level":"Approaches",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.125,
+    "subject":"English I",
+    "subgroup":"White",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.152173913,
+    "subject":"English I",
+    "subgroup":"White",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0,
+    "subject":"English I",
+    "subgroup":"White",
+    "level":"Masters",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.875,
+    "subject":"English I",
+    "subgroup":"White",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5652173913,
+    "subject":"English I",
+    "subgroup":"White",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2,
+    "subject":"English I",
+    "subgroup":"White",
+    "level":"Meets",
+    "year":2023
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"African American",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.652173913,
+    "subject":"English I",
+    "subgroup":"African American",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.652173913,
+    "subject":"English I",
+    "subgroup":"African American",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"African American",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0434782609,
+    "subject":"English I",
+    "subgroup":"African American",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0434782609,
+    "subject":"English I",
+    "subgroup":"African American",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"African American",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.3043478261,
+    "subject":"English I",
+    "subgroup":"African American",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4347826087,
+    "subject":"English I",
+    "subgroup":"African American",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.9166666667,
+    "subject":"English I",
+    "subgroup":"All Students",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6968390805,
+    "subject":"English I",
+    "subgroup":"All Students",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6143039591,
+    "subject":"English I",
+    "subgroup":"All Students",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2,
+    "subject":"English I",
+    "subgroup":"All Students",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0890804598,
+    "subject":"English I",
+    "subgroup":"All Students",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0625798212,
+    "subject":"English I",
+    "subgroup":"All Students",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.7,
+    "subject":"English I",
+    "subgroup":"All Students",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4727011494,
+    "subject":"English I",
+    "subgroup":"All Students",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.3665389527,
+    "subject":"English I",
+    "subgroup":"All Students",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Asian",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Asian",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Asian",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Asian",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Asian",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Asian",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Asian",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Asian",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Asian",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.880952381,
+    "subject":"English I",
+    "subgroup":"At Risk",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6150793651,
+    "subject":"English I",
+    "subgroup":"At Risk",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5850914205,
+    "subject":"English I",
+    "subgroup":"At Risk",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1428571429,
+    "subject":"English I",
+    "subgroup":"At Risk",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0257936508,
+    "subject":"English I",
+    "subgroup":"At Risk",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0309423347,
+    "subject":"English I",
+    "subgroup":"At Risk",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5714285714,
+    "subject":"English I",
+    "subgroup":"At Risk",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.3531746032,
+    "subject":"English I",
+    "subgroup":"At Risk",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.3220815752,
+    "subject":"English I",
+    "subgroup":"At Risk",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.9,
+    "subject":"English I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.677029361,
+    "subject":"English I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6008230453,
+    "subject":"English I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.18,
+    "subject":"English I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0759930915,
+    "subject":"English I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0548696845,
+    "subject":"English I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.68,
+    "subject":"English I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4352331606,
+    "subject":"English I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.3497942387,
+    "subject":"English I",
+    "subgroup":"Economically Disadvantaged",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.8333333333,
+    "subject":"English I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5426356589,
+    "subject":"English I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5110132159,
+    "subject":"English I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0,
+    "subject":"English I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0310077519,
+    "subject":"English I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0220264317,
+    "subject":"English I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.3333333333,
+    "subject":"English I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.3023255814,
+    "subject":"English I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2907488987,
+    "subject":"English I",
+    "subgroup":"Emergent Bilingual",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":1.0,
+    "subject":"English I",
+    "subgroup":"Female",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.7537537538,
+    "subject":"English I",
+    "subgroup":"Female",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6959064327,
+    "subject":"English I",
+    "subgroup":"Female",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1818181818,
+    "subject":"English I",
+    "subgroup":"Female",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1081081081,
+    "subject":"English I",
+    "subgroup":"Female",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0877192982,
+    "subject":"English I",
+    "subgroup":"Female",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.8636363636,
+    "subject":"English I",
+    "subgroup":"Female",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5375375375,
+    "subject":"English I",
+    "subgroup":"Female",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4356725146,
+    "subject":"English I",
+    "subgroup":"Female",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.92,
+    "subject":"English I",
+    "subgroup":"Hispanic",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.7062600321,
+    "subject":"English I",
+    "subgroup":"Hispanic",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6086369771,
+    "subject":"English I",
+    "subgroup":"Hispanic",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2,
+    "subject":"English I",
+    "subgroup":"Hispanic",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0898876404,
+    "subject":"English I",
+    "subgroup":"Hispanic",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0620782726,
+    "subject":"English I",
+    "subgroup":"Hispanic",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.68,
+    "subject":"English I",
+    "subgroup":"Hispanic",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4767255217,
+    "subject":"English I",
+    "subgroup":"Hispanic",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.3603238866,
+    "subject":"English I",
+    "subgroup":"Hispanic",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.8684210526,
+    "subject":"English I",
+    "subgroup":"Male",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6446280992,
+    "subject":"English I",
+    "subgroup":"Male",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5510204082,
+    "subject":"English I",
+    "subgroup":"Male",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2105263158,
+    "subject":"English I",
+    "subgroup":"Male",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0716253444,
+    "subject":"English I",
+    "subgroup":"Male",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0430839002,
+    "subject":"English I",
+    "subgroup":"Male",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6052631579,
+    "subject":"English I",
+    "subgroup":"Male",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4132231405,
+    "subject":"English I",
+    "subgroup":"Male",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.3129251701,
+    "subject":"English I",
+    "subgroup":"Male",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6666666667,
+    "subject":"English I",
+    "subgroup":"Special Education",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2935779817,
+    "subject":"English I",
+    "subgroup":"Special Education",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2695035461,
+    "subject":"English I",
+    "subgroup":"Special Education",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0,
+    "subject":"English I",
+    "subgroup":"Special Education",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0275229358,
+    "subject":"English I",
+    "subgroup":"Special Education",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0354609929,
+    "subject":"English I",
+    "subgroup":"Special Education",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.2222222222,
+    "subject":"English I",
+    "subgroup":"Special Education",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1009174312,
+    "subject":"English I",
+    "subgroup":"Special Education",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1560283688,
+    "subject":"English I",
+    "subgroup":"Special Education",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Two or More Races",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6666666667,
+    "subject":"English I",
+    "subgroup":"Two or More Races",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Two or More Races",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Two or More Races",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0,
+    "subject":"English I",
+    "subgroup":"Two or More Races",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Two or More Races",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Two or More Races",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6666666667,
+    "subject":"English I",
+    "subgroup":"Two or More Races",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"Two or More Races",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"White",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.5789473684,
+    "subject":"English I",
+    "subgroup":"White",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.6923076923,
+    "subject":"English I",
+    "subgroup":"White",
+    "level":"Approaches",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"White",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.1315789474,
+    "subject":"English I",
+    "subgroup":"White",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.0769230769,
+    "subject":"English I",
+    "subgroup":"White",
+    "level":"Masters",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912006",
+    "CAMPUS":"CAST STEM H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":null,
+    "subject":"English I",
+    "subgroup":"White",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912001",
+    "CAMPUS":"SOUTHWEST H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4736842105,
+    "subject":"English I",
+    "subgroup":"White",
+    "level":"Meets",
+    "year":2024
+  },
+  {
+    "CAMPUS_ID":"'015912005",
+    "CAMPUS":"SOUTHWEST LEGACY H S",
+    "DISTRICT":"SOUTHWEST ISD",
+    "rate":0.4615384615,
+    "subject":"English I",
+    "subgroup":"White",
+    "level":"Meets",
+    "year":2024
+  }
+];

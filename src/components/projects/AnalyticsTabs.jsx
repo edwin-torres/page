@@ -1,6 +1,6 @@
 // src/components/projects/AnalyticsTabs.jsx
 import React, { Suspense, useState, useEffect } from "react";
-import { Box, Tabs, Tab, Typography, Paper, Link,  ToggleButton, ToggleButtonGroup } from "@mui/material";
+import { Box, Tabs, Tab, Typography, Paper, Link, ToggleButton, ToggleButtonGroup } from "@mui/material";
 
 // Lazy load the charts
 const TIABarDashboard = React.lazy(() => import("./CampusGrowthChart"));
@@ -10,11 +10,13 @@ const CampusRanking = React.lazy(() => import("./CampusRanking"));
 const TIABarDashboardEnglish = React.lazy(() => import("./CampusGrowthChartEnglish"));
 const CampusRankingEnglish = React.lazy(() => import("./CampusRankingEnglish"));
 
+// 🔹 NEW: Lazy load STAAR subgroup performance chart
+const StaarRatesByCampus = React.lazy(() => import("./StaarRatesByCampus"));
 
 export default function AnalyticsTabs() {
   const [tab, setTab] = useState(() => localStorage.getItem("analytics:tab") || "growth");
 
-   // 🔹 NEW: subject state
+  // 🔹 NEW: subject state
   const [subject, setSubject] = useState(
     () => localStorage.getItem("analytics:subject") || "algebra"
   );
@@ -23,11 +25,10 @@ export default function AnalyticsTabs() {
     localStorage.setItem("analytics:tab", tab);
   }, [tab]);
 
-   // 🔹 NEW: persist subject too
+  // 🔹 NEW: persist subject too
   useEffect(() => {
     localStorage.setItem("analytics:subject", subject);
   }, [subject]);
-
 
   // SWISD / Professional Color Palette
   const themeColors = {
@@ -47,10 +48,10 @@ export default function AnalyticsTabs() {
 
   return (
     // MAIN CONTAINER: This overrides the global black background for this specific route
-    <Box 
-      sx={{ 
-        p: { xs: 2, md: 4 }, 
-        bgcolor: themeColors.bg, 
+    <Box
+      sx={{
+        p: { xs: 2, md: 4 },
+        bgcolor: themeColors.bg,
         minHeight: "100vh", // Ensures this view covers the black background
         color: themeColors.text
       }}
@@ -58,10 +59,10 @@ export default function AnalyticsTabs() {
       {/* Instruction line - Now Dark Gray */}
       <Typography
         variant="h5" // Increased size slightly for hierarchy
-        sx={{ 
-          mb: 3, 
+        sx={{
+          mb: 3,
           fontWeight: 600,
-          color: themeColors.text 
+          color: themeColors.text
         }}
       >
         SOUTHWEST ISD - Growth & Analysis ({subject.toUpperCase()})
@@ -73,32 +74,32 @@ export default function AnalyticsTabs() {
         exclusive
         onChange={handleSubjectChange}
         sx={{
-    mb: 2,
-    "& .MuiToggleButton-root": {
-      textTransform: "none",
-      fontWeight: 600,
-      fontSize: "1rem",
-      color: themeColors.tabUnselected,
-      backgroundColor: "rgba(0,0,0,0.05)",   // same as unselected tabs
-      borderRadius: 2,
-      px: 3,
-      minHeight: 40,
-      border: "none",
-      transition: "all 0.2s ease",
-      "&:hover": {
-        backgroundColor: "rgba(0,0,0,0.1)",
-        color: themeColors.primary,
-      },
-    },
-    "& .MuiToggleButton-root.Mui-selected": {
-      color: "#ffffff",                     // white text
-      backgroundColor: themeColors.primary, // green like selected tab
-      boxShadow: "0 4px 12px rgba(27, 94, 32, 0.3)",
-      "&:hover": {
-        backgroundColor: themeColors.primary,
-      },
-    },
-  }}
+          mb: 2,
+          "& .MuiToggleButton-root": {
+            textTransform: "none",
+            fontWeight: 600,
+            fontSize: "1rem",
+            color: themeColors.tabUnselected,
+            backgroundColor: "rgba(0,0,0,0.05)",   // same as unselected tabs
+            borderRadius: 2,
+            px: 3,
+            minHeight: 40,
+            border: "none",
+            transition: "all 0.2s ease",
+            "&:hover": {
+              backgroundColor: "rgba(0,0,0,0.1)",
+              color: themeColors.primary,
+            },
+          },
+          "& .MuiToggleButton-root.Mui-selected": {
+            color: "#ffffff",                     // white text
+            backgroundColor: themeColors.primary, // green like selected tab
+            boxShadow: "0 4px 12px rgba(27, 94, 32, 0.3)",
+            "&:hover": {
+              backgroundColor: themeColors.primary,
+            },
+          },
+        }}
         aria-label="Select subject"
       >
         <ToggleButton value="algebra" aria-label="Algebra I">
@@ -124,7 +125,7 @@ export default function AnalyticsTabs() {
           gap: 1,
           "& .MuiTabs-indicator": { display: "none" }, // Hide the default underline
           "& .MuiTabs-flexContainer": { gap: 2 },
-          
+
           // DEFAULT TAB STYLES (Unselected)
           "& .MuiTab-root": {
             textTransform: "none",
@@ -137,7 +138,7 @@ export default function AnalyticsTabs() {
             px: 3,
             transition: "all 0.2s ease",
           },
-          
+
           // HOVER STATE
           "& .MuiTab-root:hover": {
             backgroundColor: "rgba(0,0,0,0.1)",
@@ -155,20 +156,21 @@ export default function AnalyticsTabs() {
       >
         <Tab value="growth" label="Growth (2023 vs 2024)" />
         <Tab value="ranking" label="Campus Comparisons" />
+        <Tab value="staar_levels" label="Approaches/Meets/Masters" />
       </Tabs>
 
       {/* CHART CONTAINER AREA */}
-      <Paper 
-        elevation={0} 
-        sx={{ 
+      <Paper
+        elevation={0}
+        sx={{
           p: 3,
-          bgcolor: themeColors.paper, 
+          bgcolor: themeColors.paper,
           borderRadius: 3,
           boxShadow: "0 2px 10px rgba(0,0,0,0.05)", // Very soft shadow
-          border: "1px solid rgba(0,0,0,0.08)" 
+          border: "1px solid rgba(0,0,0,0.08)"
         }}
       >
-          <Suspense fallback={<Typography sx={{ p: 2 }}>Loading visualization...</Typography>}>
+        <Suspense fallback={<Typography sx={{ p: 2 }}>Loading visualization...</Typography>}>
           {/* 🔹 UPDATED: choose chart by tab + subject */}
           {tab === "growth" && (
             subject === "algebra" ? <TIABarDashboard /> : <TIABarDashboardEnglish />
@@ -177,35 +179,38 @@ export default function AnalyticsTabs() {
           {tab === "ranking" && (
             subject === "algebra" ? <CampusRanking /> : <CampusRankingEnglish />
           )}
+
+          {/* 🔹 NEW: STAAR Approaches/Meets/Masters by Campus */}
+          {tab === "staar_levels" && (
+  <StaarRatesByCampus subject={subject} />
+)}
         </Suspense>
-        <Paper 
-  elevation={0} 
-  sx={{ 
-    p: 3,
-    bgcolor: themeColors.paper, 
-    borderRadius: 3,
-    boxShadow: "0 2px 10px rgba(0,0,0,0.05)",
-    border: "1px solid rgba(0,0,0,0.08)" 
-  }}
->
- 
 
-  {/* Data source footer */}
-  <Box sx={{ mt: 3, pt: 1, borderTop: "1px solid rgba(0,0,0,0.06)" }}>
-    <Typography variant="caption" sx={{ color: "text.secondary" }}>
-      Data Source: Texas Education Agency (TEA), Texas Academic Performance Reports (TAPR). 
-      Sample data used for demonstration purposes.&nbsp;
-      <Link
-        href="https://tea.texas.gov/texas-schools/accountability/academic-accountability/performance-reporting/texas-academic-performance-reports"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        View TAPR reports
-      </Link>
-    </Typography>
-  </Box>
-</Paper>
-
+        <Paper
+          elevation={0}
+          sx={{
+            p: 3,
+            bgcolor: themeColors.paper,
+            borderRadius: 3,
+            boxShadow: "0 2px 10px rgba(0,0,0,0.05)",
+            border: "1px solid rgba(0,0,0,0.08)"
+          }}
+        >
+          {/* Data source footer */}
+          <Box sx={{ mt: 3, pt: 1, borderTop: "1px solid rgba(0,0,0,0.06)" }}>
+            <Typography variant="caption" sx={{ color: "text.secondary" }}>
+              Data Source: Texas Education Agency (TEA), Texas Academic Performance Reports (TAPR).
+              Sample data used for demonstration purposes.&nbsp;
+              <Link
+                href="https://tea.texas.gov/texas-schools/accountability/academic-accountability/performance-reporting/texas-academic-performance-reports"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View TAPR reports
+              </Link>
+            </Typography>
+          </Box>
+        </Paper>
       </Paper>
     </Box>
   );
