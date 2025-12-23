@@ -19,12 +19,17 @@ import CollegeDemographics from './components/projects/CollegeDemographics';
 import ConnectionGrid from "./components/projects/Connections";
  
 import AnalyticsTabs from "./components/projects/AnalyticsTabs";
- 
+import TIADesignationDashboard from "./components/projects/TIADesignationDashboard";
+
 
 function App() {
    const location = useLocation(); // 2. Get current location
-   const isAnalyticsPage = location.pathname === '/projects/analytics';
-   const containerColor = isAnalyticsPage ? '#f4f6f8':'black';
+  const isAnalyticsPage =
+  location.pathname === "/projects/analytics" ||
+  location.pathname === "/projects/tia-designations";
+
+const containerColor = isAnalyticsPage ? "#f4f6f8" : "black";
+
   return (
     <>
     {/* 4. Only show NavBar if we are NOT on the analytics page */}
@@ -54,7 +59,8 @@ function App() {
       <Route path='/projects/connections' element={<ConnectionGrid />} />
  
       <Route path='/projects/analytics' element={<AnalyticsTabs />} />
-    
+    <Route path="/projects/tia-designations" element={<TIADesignationDashboard />} />
+
  
 
       {/* Using path="*"" means "match anything" */}

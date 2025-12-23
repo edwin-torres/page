@@ -27,6 +27,8 @@ const themeColors = {
   tabUnselected: "#000000ff",
 };
 
+
+
 const cleanCampusId = (id) => {
   if (id == null) return "";
   return String(id).replace(/^'+/, "");
@@ -38,6 +40,8 @@ const fmtPct = (x) => {
 };
 
 export default function StaarRatesByCampus({ subject = "algebra" }) {
+
+ 
   const [year, setYear] = useState(2024);
   const [subgroup, setSubgroup] = useState("All Students");
   const [level, setLevel] = useState("Approaches");
