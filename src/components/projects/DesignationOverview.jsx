@@ -60,7 +60,9 @@ for (const row of data) {
   const nivoTheme = useMemo(
   () => ({
     text: { fill: themeColors.text, fontSize: 14 }, // general default
-
+  labels: {
+                  text: { fill: "#000000ff", fontSize: 14, fontWeight: 300 },
+                },
     axis: {
       domain: { line: { stroke: "rgba(0,0,0,0.2)" } },
       ticks: {
@@ -135,7 +137,7 @@ for (const row of data) {
                 valueScale={{ type: "linear" }}
                 indexScale={{ type: "band", round: true }}
                 theme={nivoTheme}
-                enableLabel={false}
+                
                 axisTop={null}
                 axisRight={null}
                 axisLeft={{
@@ -191,29 +193,30 @@ for (const row of data) {
               <ResponsivePie
                 data={pieData}
                 theme={nivoTheme}
-                margin={{ top: 55, right: 120, bottom: 30, left: 0}}
-                enableArcLinkLabels={false}
-                
+                margin={{ top: 55, right: 110, bottom: 30, left: 25}}
+                 arcLinkLabel={(e) =>
+  total > 0 ? `${e.id} (${((e.value / total) * 100).toFixed(1)}%)` : `${e.id}`
+}
                 innerRadius={0.55}
                 arcLinkLabelsDiagonalLength={15}
         arcLinkLabelsStraightLength={10}
                 cornerRadius={3}
                 activeOuterRadiusOffset={2}
                 enableArcLabels={false}
-                arcLinkLabelsSkipAngle={10}
+                arcLinkLabelsSkipAngle={1}
                 arcLinkLabelsThickness={4}
                 arcLinkLabelsTextColor={themeColors.text}
                 arcLinkLabelsColor={{ from: "color" }}
                legends={[
   {
-    anchor: "right",
+    anchor: "top-right",
     direction: "column",
-    translateX: 45,
-    itemWidth: 100,
-    itemHeight: 21,
-    itemsSpacing: 9,
+    translateX: 0,
+    itemWidth: 50,
+    itemHeight: 15,
+    itemsSpacing: 2,
     itemTextColor: themeColors.text,
-    symbolSize: 17,
+    symbolSize: 14,
     symbolShape: "circle",
   },
 ]}
