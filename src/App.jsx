@@ -20,13 +20,23 @@ import ConnectionGrid from "./components/projects/Connections";
  
 import AnalyticsTabs from "./components/projects/AnalyticsTabs";
 import TIADesignationDashboard from "./components/projects/TIADesignationDashboard";
+import TIAScorecardPage from "./components/projects/TIAScorecard/TIAScorecard";
+import PrincipalScorecardPage from "./components/projects/PrincipalScorecard/PrincipalScorecard";
+import TeacherWhatIfPage from "./components/projects/TeacherWhatIf/TeacherWhatIf";
+import TiaToolsPage from "./components/projects/TiaTools/TiaTools";
+import SampleScoreCardsPage from "./components/projects/TiaTools/SampleScoreCards";
 
 
 function App() {
    const location = useLocation(); // 2. Get current location
   const isAnalyticsPage =
   location.pathname === "/projects/analytics" ||
-  location.pathname === "/projects/tia-designations";
+  location.pathname === "/projects/tia-designations" ||
+  location.pathname === "/projects/tia-scorecard" ||
+  location.pathname === "/projects/principal-scorecard" ||
+  location.pathname === "/projects/teacher-what-if" ||
+  location.pathname === "/projects/sample-score-cards" ||
+  location.pathname === "/tia-tools";
 
 const containerColor = isAnalyticsPage ? "#f4f6f8" : "black";
 
@@ -60,6 +70,11 @@ const containerColor = isAnalyticsPage ? "#f4f6f8" : "black";
  
       <Route path='/projects/analytics' element={<AnalyticsTabs />} />
     <Route path="/projects/tia-designations" element={<TIADesignationDashboard />} />
+    <Route path="/projects/tia-scorecard" element={<TIAScorecardPage />} />
+    <Route path="/projects/principal-scorecard" element={<PrincipalScorecardPage />} />
+    <Route path="/projects/teacher-what-if" element={<TeacherWhatIfPage />} />
+    <Route path="/projects/sample-score-cards" element={<SampleScoreCardsPage />} />
+    <Route path="/tia-tools" element={<TiaToolsPage />} />
 
  
 
