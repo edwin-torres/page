@@ -13,7 +13,7 @@ export default function BasicCard({name, description, appRoute, code_url}) {
   return (
     <Card sx={{p:0,m:0,bgcolor:'#d7ccc8' , borderRadius:'16px',justifyContent:'center',  textAlign:'center', display:'flex'  }}>
       <CardContent>
-        <Box sx={{  p:0,m:0,  height:200, width:355, }}>
+        <Box sx={{  p:0,m:0,  minHeight:200, width:355, }}>
 
       
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
