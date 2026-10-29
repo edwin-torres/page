@@ -1,6 +1,7 @@
  
+import { useState } from "react";
 import { Routes, Route, useLocation} from "react-router-dom";
-import { Container } from '@mui/material';
+import { Container, GlobalStyles } from '@mui/material';
  
 
 import About from './components/Home'
@@ -18,19 +19,20 @@ import Congress from "./components/projects/Congress";
 import CollegeDemographics from './components/projects/CollegeDemographics';
 import ConnectionGrid from "./components/projects/Connections";
  
-import AnalyticsTabs from "./components/projects/AnalyticsTabs";
 import TIADesignationDashboard from "./components/projects/TIADesignationDashboard";
 import TIAScorecardPage from "./components/projects/TIAScorecard/TIAScorecard";
 import PrincipalScorecardPage from "./components/projects/PrincipalScorecard/PrincipalScorecard";
 import TeacherWhatIfPage from "./components/projects/TeacherWhatIf/TeacherWhatIf";
 import TiaToolsPage from "./components/projects/TiaTools/TiaTools";
 import SampleScoreCardsPage from "./components/projects/TiaTools/SampleScoreCards";
+import NotFound from "./components/NotFound";
 
 
 function App() {
    const location = useLocation(); // 2. Get current location
+  // true while the "page not found" screen is showing (NotFound sets it)
+  const [notFound, setNotFound] = useState(false);
   const isAnalyticsPage =
-  location.pathname === "/projects/analytics" ||
   location.pathname === "/projects/tia-designations" ||
   location.pathname === "/projects/tia-scorecard" ||
   location.pathname === "/projects/principal-scorecard" ||
@@ -40,10 +42,20 @@ function App() {
 
 const containerColor = isAnalyticsPage ? "#f4f6f8" : "black";
 
+  // The part of the address before the # must be the site's own folder (/page/).
+  // Anything else, like /page/tia-explainer, is a wrong address: the dev server
+  // and the live site's 404.html both load this app for it, so say so instead
+  // of showing the home page.
+  const BASE = import.meta.env.BASE_URL; // "/page/", from vite.config.js
+  const wrongFolder = ![BASE, BASE + "index.html"].includes(window.location.pathname);
+
   return (
     <>
-    {/* 4. Only show NavBar if we are NOT on the analytics page */}
-      {!isAnalyticsPage && <NavBar />}
+    {/* 4. Only show NavBar if we are NOT on the analytics page or the not found page */}
+      {!isAnalyticsPage && !notFound && <NavBar />}
+      {/* Light pages reach the window edges: drop the browser's default 8px body margin,
+          which otherwise shows the black page background as a thin frame */}
+      {(isAnalyticsPage || notFound) && <GlobalStyles styles={{ body: { margin: 0 } }} />}
      
     
    
@@ -51,6 +63,9 @@ const containerColor = isAnalyticsPage ? "#f4f6f8" : "black";
 
 
     
+    {wrongFolder ? (
+      <NotFound onShow={setNotFound} address={window.location.pathname + window.location.hash} />
+    ) : (
     <Routes>
 
       <Route path="/" element={<About />} />
@@ -68,7 +83,6 @@ const containerColor = isAnalyticsPage ? "#f4f6f8" : "black";
       <Route path='/projects/college-demographics' element={<CollegeDemographics />} />
       <Route path='/projects/connections' element={<ConnectionGrid />} />
  
-      <Route path='/projects/analytics' element={<AnalyticsTabs />} />
     <Route path="/projects/tia-designations" element={<TIADesignationDashboard />} />
     <Route path="/projects/tia-scorecard" element={<TIAScorecardPage />} />
     <Route path="/projects/principal-scorecard" element={<PrincipalScorecardPage />} />
@@ -78,10 +92,11 @@ const containerColor = isAnalyticsPage ? "#f4f6f8" : "black";
 
  
 
-      {/* Using path="*"" means "match anything" */}
-      <Route path="*" element={<About />} />
+      {/* Using path="*"" means "match anything": any address with no route above */}
+      <Route path="*" element={<NotFound onShow={setNotFound} />} />
 
     </Routes>
+    )}
   </Container>
   </>
   )
