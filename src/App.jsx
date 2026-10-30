@@ -27,6 +27,7 @@ import TiaToolsPage from "./components/projects/TiaTools/TiaTools";
 import SampleScoreCardsPage from "./components/projects/TiaTools/SampleScoreCards";
 import NotFound from "./components/NotFound";
 import StaarTransitionPage from "./components/projects/StaarTransition/StaarTransition";
+import TiaExplainersPage from "./components/projects/TiaTools/TiaExplainers";
 
 
 function App() {
@@ -40,7 +41,8 @@ function App() {
   location.pathname === "/projects/teacher-what-if" ||
   location.pathname === "/projects/sample-score-cards" ||
   location.pathname === "/tia-tools" ||
-  location.pathname === "/projects/staar-transition-growth";
+  location.pathname === "/projects/staar-transition-growth" ||
+  location.pathname === "/tia-explainers";
 
 const containerColor = isAnalyticsPage ? "#f4f6f8" : "black";
 
@@ -92,6 +94,7 @@ const containerColor = isAnalyticsPage ? "#f4f6f8" : "black";
     <Route path="/projects/sample-score-cards" element={<SampleScoreCardsPage />} />
     <Route path="/tia-tools" element={<TiaToolsPage />} />
     <Route path="/projects/staar-transition-growth" element={<StaarTransitionPage />} />
+    <Route path="/tia-explainers" element={<TiaExplainersPage />} />
 
  
 
